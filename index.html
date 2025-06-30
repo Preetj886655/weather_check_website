@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="weather">
+    <section class="container">
+        <!-- city search -->
+        <div class="weather_header">
+            <form action="#" class="weather_search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+               <input type="text" class="city_name" placeholder="Search your city">  
+
+            </form>
+        </div>
+
+
+   <div class="weather_body">
+    <h1 class="weather_city"></h1>
+    <p class="weather_date_time"></p>
+        <div class="weather_data">
+              <div class="weather_icon"></div>
+            <p class="weather_forecast"></p>
+        </div>
+    <p class="weather_temperature"></p>
+    <div class="weather_minmax">
+        <p class="weather_min"></p>
+       <p class="weather_max"></p>
+    </div>
+   </div>
+
+<section class="weather_info">
+    <!-- 1 card -->
+    <div class="weather_card">
+        <i class="fa fa-tint" aria-hidden="true"></i>
+        <diV>
+            <p>Feels Like</p>
+            <p class="weather_feelslike">15&#176</p>
+        </diV>
+    </div>
+      <!-- 2nd card -->
+
+          <div class="weather_card">
+        <i class="fa-solid fa-droplet" aria-hidden="true"></i>
+        <diV>
+            <p>Humidity</p>
+            <p class="weather_humidity">15&#176</p>
+        </diV>
+    </div>
+    <!-- 3rd card -->
+         <div class="weather_card">
+        <i class="fa-solid fa-wind" aria-hidden="true"></i>
+        <diV>
+            <p>wind</p>
+            <p class="weather_wind">15&#176</p>
+        </diV>
+    </div>
+    <!-- 4th card -->
+
+         <div class="weather_card">
+        <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+        <diV>
+            <p>Pressure</p>
+            <p class="weather_pressure">15&#176</p>
+        </diV>
+    </div>
+   </section>
+
+    </section>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
