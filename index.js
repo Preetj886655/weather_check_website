@@ -70,7 +70,7 @@ w_pressure.innerHTML=`${main.pressure}hPa`;
 
     }
     catch(error){
-        console.log("city name is not found")
+        alert("city name is not found")
     }
 }; 
 
