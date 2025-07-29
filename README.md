@@ -7,7 +7,7 @@ This is a responsive and interactive **weather checking application** built usin
 
 ## 🌐 Live Demo
 
-👉 [Click here to check the live website](https://preetj886655.github.io/Background_colour/)
+👉 [Click here to check the live website]([https://preetj886655.github.io/Background_colour/](https://preetj886655.github.io/weather_check_website/))
 
 ---
 
